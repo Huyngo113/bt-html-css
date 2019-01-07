@@ -1,5 +1,4 @@
 *{
-
     padding: 0px;
 }
 .logotop{
@@ -494,8 +493,113 @@ hr{
     width: 1000px;
     height: 225.5px;
     margin-left: 188px;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
+    overflow: hidden;
 }
+.bottom .tc{
+    margin-left: 650px;
+}
+.bottom .tc .ai{
+    text-decoration: none;
+    color: #004175;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: 500;
+    margin-left: 5px;
+    padding-right: 5px;
+    /* border-right: 1px solid #004175; */
+}
+.bottom .tc .ui {
+    text-decoration: none;
+    color: #004175;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.bottom  .mnbt {
+    display: flex;
+    width: 1050px;
+    list-style: none;
+    margin-left: 0px;
+    border-top: 1px dotted #004175;
+    padding-top: 6px;
+
+}
+.bottom  .mnbt .ki{
+    text-decoration: none;
+    color: #004175;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: Arial;
+    text-align: center;
+    margin-left: 0px;
+    border-right-width: 2px;
+    padding-right: 3px;
+    padding-left: 3px;
+
+    display: block;
+}
+.bottom  .mnbt .si{
+    text-decoration: none;
+    color: #004175;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: Arial;
+    text-align: center;
+    margin-left: 0px;
+    border-right-width: 2px;
+    padding-right: 3px;
+    padding-left: 3px;
+
+}
+
+
+.bottom .copyright{
+
+    background-image: url(bluebg2.png);
+    position: absolute;
+
+
+}
+.bottom .copyright .cprl{
+    width: 70%;
+    height: 146.36px;
+    padding-left: 5px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    float: left;
+}
+.bottom .copyright .cprl >p{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.bottom .copyright .cprl >i{}
+.bottom .copyright .cprl >span{}
+.bottom .copyright .cprl >span>a{
+    text-decoration: none;
+    color: #333;
+    padding-top:0px;}
+.bottom .copyright .cprr>p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.bottom .copyright .cprr{
+    width: 29%;
+    float: right;
+}
+.bottom .copyright .cprr>p>a{
+    color: #333;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.bottom .copyright{}
 
 
 
